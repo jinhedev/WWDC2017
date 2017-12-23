@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>file</key>
+		<string>IMG_0049</string>
+		<key>rating</key>
+		<integer>4</integer>
+		<key>description</key>
+		<string>This bench waits patienty for his clients.</string>
+		<key>name</key>
+		<string>Bob the Bench</string>
+		<key>date</key>
+		<date>2013-07-24T18:14:00Z</date>
+	</dict>
+	<dict>
+		<key>file</key>
+		<string>IMG_0117</string>
+		<key>rating</key>
+		<integer>5</integer>
+		<key>description</key>
+		<string>The fire hydrant contemplates the meaning of life.</string>
+		<key>name</key>
+		<string>Fred the Fire Hydrant</string>
+		<key>date</key>
+		<date>2013-07-24T18:14:00Z</date>
+	</dict>
+	<dict>
+		<key>file</key>
+		<string>IMG_0121</string>
+		<key>rating</key>
+		<integer>3</integer>
+		<key>description</key>
+		<string>A small plant dreams of growing big someday.</string>
+		<key>name</key>
+		<string>Sammy the Shrub</string>
+		<key>date</key>
+		<date>2013-07-22T18:01:00Z</date>
+	</dict>
+	<dict>
+		<key>file</key>
+		<string>IMG_0122</string>
+		<key>rating</key>
+		<integer>5</integer>
+		<key>description</key>
+		<string>These flowers wish they were somewhere more in the spotlight.</string>
+		<key>name</key>
+		<string>Flower Power</string>
+		<key>date</key>
+		<date>2013-07-24T18:14:00Z</date>
+	</dict>
+	<dict>
+		<key>file</key>
+		<string>IMG_0125</string>
+		<key>rating</key>
+		<integer>5</integer>
+		<key>description</key>
+		<string>A tree tag hangs happily from its tree, observing the world below.</string>
+		<key>name</key>
+		<string>Ted the Tree Tag</string>
+		<key>date</key>
+		<date>2013-07-22T18:01:00Z</date>
+	</dict>
+	<dict>
+		<key>file</key>
+		<string>IMG_0129</string>
+		<key>rating</key>
+		<integer>4</integer>
+		<key>description</key>
+		<string>This frondy shrub wonders if Sammy the shrub can come out to play soon.</string>
+		<key>name</key>
+		<string>Seth the Shrub</string>
+		<key>date</key>
+		<date>2013-07-22T18:01:00Z</date>
+	</dict>
+	<dict>
+		<key>file</key>
+		<string>IMG_0130</string>
+		<key>rating</key>
+		<integer>5</integer>
+		<key>description</key>
+		<string>A bush rests after a long day of greeting passerbys.</string>
+		<key>name</key>
+		<string>Beth the Bush</string>
+		<key>date</key>
+		<date>2013-07-22T18:01:00Z</date>
+	</dict>
+	<dict>
+		<key>file</key>
+		<string>IMG_0132</string>
+		<key>rating</key>
+		<integer>4</integer>
+		<key>description</key>
+        <string>These chairs wish their table wasn't such a square.</string>
+		<key>name</key>
+		<string>The Square Family</string>
+		<key>date</key>
+		<date>2013-07-22T18:01:00Z</date>
+	</dict>
+	<dict>
+		<key>file</key>
+		<string>IMG_0133</string>
+		<key>rating</key>
+		<integer>5</integer>
+		<key>description</key>
+		<string>These chairs appreciate their tables predictable shape.</string>
+		<key>name</key>
+		<string>The Square Cousins</string>
+		<key>date</key>
+		<date>2013-07-24T18:14:00Z</date>
+	</dict>
+	<dict>
+		<key>file</key>
+		<string>IMG_0136</string>
+		<key>rating</key>
+		<integer>5</integer>
+		<key>description</key>
+		<string>These chairs and table like to lead a relaxed life in the sun.</string>
+		<key>name</key>
+		<string>The Sunny Family</string>
+		<key>date</key>
+		<date>2013-07-22T18:01:00Z</date>
+	</dict>
+	<dict>
+		<key>file</key>
+		<string>IMG_0137</string>
+		<key>rating</key>
+		<integer>5</integer>
+		<key>description</key>
+		<string>An avocado meets a mango for the first time.</string>
+		<key>name</key>
+		<string>Anne the Avocado</string>
+		<key>date</key>
+		<date>2013-07-22T18:02:00Z</date>
+	</dict>
+	<dict>
+		<key>file</key>
+		<string>IMG_0141</string>
+		<key>rating</key>
+		<integer>5</integer>
+		<key>description</key>
+		<string>This rose regrets not auditioning for a role in a fairy tale based live action film.</string>
+		<key>name</key>
+		<string>Rachel the Rose</string>
+		<key>date</key>
+		<date>2013-07-24T18:14:00Z</date>
+	</dict>
+	<dict>
+		<key>file</key>
+		<string>IMG_0148</string>
+		<key>rating</key>
+		<integer>5</integer>
+		<key>description</key>
+		<string>Alex the Apple wonders why the floor is full of holes.</string>
+		<key>name</key>
+		<string>Alex the Apple</string>
+		<key>date</key>
+		<date>2013-07-24T18:14:00Z</date>
+	</dict>
+	<dict>
+		<key>file</key>
+		<string>IMG_0151</string>
+		<key>rating</key>
+		<integer>1</integer>
+		<key>description</key>
+		<string>A pastry on the floor is an unhappy pastry.</string>
+		<key>name</key>
+		<string>Beatrice the Pastry</string>
+		<key>date</key>
+		<date>2013-07-24T18:14:00Z</date>
+	</dict>
+</array>
+</plist>

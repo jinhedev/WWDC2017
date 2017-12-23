@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="13122.17" systemVersion="16F71b" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13122.17"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="DetailViewController" customModule="PicturesFrameworkMacOS">
+            <connections>
+                <outlet property="descriptionField" destination="L9a-j1-Zf7" id="CM3-bi-uYY"/>
+                <outlet property="imageView" destination="uif-xW-Yws" id="4Qf-fG-4dZ"/>
+                <outlet property="ratingsField" destination="Pdq-DI-B92" id="OL8-Oz-5Yg"/>
+                <outlet property="titleField" destination="hTB-QQ-Xsa" id="Xb9-oi-3Il"/>
+                <outlet property="view" destination="fqI-6q-fzz" id="lc2-qx-jpp"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <view id="fqI-6q-fzz">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="373"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uif-xW-Yws">
+                    <rect key="frame" x="-1136" y="104" width="2662" height="213"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="213" id="0jI-Ib-zGL"/>
+                    </constraints>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="IMG_0049" id="Yhk-D3-s4k"/>
+                </imageView>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Pdq-DI-B92">
+                    <rect key="frame" x="149" y="70" width="93" height="26"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="⭐️⭐️⭐️⭐️⭐️" id="wqz-Qm-dtO">
+                        <font key="font" size="13" name="AppleColorEmoji"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="L9a-j1-Zf7">
+                    <rect key="frame" x="8" y="20" width="374" height="36"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="36" id="Y3b-MZ-guA"/>
+                    </constraints>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Description Text" id="6IK-fi-5AB">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="secondaryLabelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="hTB-QQ-Xsa">
+                    <rect key="frame" x="-2" y="329" width="394" height="24"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Title" id="tgv-P1-1UV">
+                        <font key="font" size="20" name=".AppleSystemUIFont"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+            </subviews>
+            <constraints>
+                <constraint firstItem="uif-xW-Yws" firstAttribute="top" secondItem="fqI-6q-fzz" secondAttribute="top" constant="56" id="F3e-y3-Qnb"/>
+                <constraint firstItem="L9a-j1-Zf7" firstAttribute="centerX" secondItem="fqI-6q-fzz" secondAttribute="centerX" id="OqX-Xb-tCk"/>
+                <constraint firstItem="hTB-QQ-Xsa" firstAttribute="centerX" secondItem="fqI-6q-fzz" secondAttribute="centerX" id="P3K-Gd-oEb"/>
+                <constraint firstItem="Pdq-DI-B92" firstAttribute="top" secondItem="uif-xW-Yws" secondAttribute="bottom" constant="8" symbolic="YES" id="VAZ-HU-mVU"/>
+                <constraint firstAttribute="bottom" secondItem="L9a-j1-Zf7" secondAttribute="bottom" constant="20" symbolic="YES" id="YDT-y4-w24"/>
+                <constraint firstAttribute="trailing" secondItem="hTB-QQ-Xsa" secondAttribute="trailing" id="cU3-cs-xxt"/>
+                <constraint firstItem="uif-xW-Yws" firstAttribute="top" secondItem="hTB-QQ-Xsa" secondAttribute="bottom" constant="12" id="eXu-bn-GaD"/>
+                <constraint firstItem="Pdq-DI-B92" firstAttribute="centerX" secondItem="fqI-6q-fzz" secondAttribute="centerX" id="hXl-VI-zGy"/>
+                <constraint firstAttribute="trailing" secondItem="L9a-j1-Zf7" secondAttribute="trailing" constant="10" id="jeQ-Br-OjH"/>
+                <constraint firstItem="uif-xW-Yws" firstAttribute="centerX" secondItem="fqI-6q-fzz" secondAttribute="centerX" id="pLl-qe-p7I"/>
+                <constraint firstItem="hTB-QQ-Xsa" firstAttribute="leading" secondItem="fqI-6q-fzz" secondAttribute="leading" id="qee-60-ybg"/>
+                <constraint firstItem="L9a-j1-Zf7" firstAttribute="leading" secondItem="fqI-6q-fzz" secondAttribute="leading" constant="10" id="wAG-jh-olu"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="168.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="IMG_0049" width="2661" height="1996"/>
+    </resources>
+</document>
